@@ -1,0 +1,221 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* Estilos del contenedor de la calculadora y su contenido */
+.calc-container {
+    background-color: #282828;
+    width: 30%;
+    height: 370px;
+    padding: 10px 15px;
+    border-radius: 10px 10px 0px 0px;
+    margin-top: 10px;
+}
+
+.calc-content {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Estilos de la pantalla de cálculo */
+.calc-screen {
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 30%;
+    border-radius: 5px;
+}
+
+.back-operation {
+    color: #fff;
+    text-align: right;
+}
+
+input {
+    background-color: transparent;
+    outline: none;
+    color: #fff;
+    border: none;
+    text-align: right;
+    font-size: 28px;
+    padding: 15px;
+}
+
+/* Estilos del panel de botones de la calculadora */
+.buttons-panel {
+    display: flex;
+    flex-direction: row;
+}
+
+button {
+    color: #fff;
+    font-size: 23px;
+    border: none;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.btn-equal {
+    background-color: #3074A5;
+    font-size: 27px;
+}
+
+.n-buttons {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.n-button {
+    width: 30%;
+    height: 50px;
+    margin: 5px 0px;
+}
+
+.black-btn {
+    background-color: #000;
+}
+
+.gray-btn {
+    background-color: #3C3C3C;
+}
+
+.arit-button {
+    width: 100%;
+    height: 50px;
+    margin: 5px 0px;
+}
+
+.arit-buttons {
+    margin-left: 10px;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* Estilos del History container */
+
+.history-container {
+    opacity: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0,0,0,0.3);
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    pointer-events: none;
+    top: 0;
+    left: 0;
+}
+
+.history-modal {
+    height: 500px;
+    width: 40%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+}
+
+.modal-content {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 340px;
+    overflow: auto;
+}
+
+.history-list {
+    flex-direction: column;
+    display: none;
+}
+
+.no-operation {
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.top-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.show{
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.showSection{
+    display: flex;
+}
+
+.btn-close {
+    margin-left: auto;
+    background-color: #DE3C3C;
+    width: 40px;
+    height: 40px;
+    font-weight: 600;
+}
+
+.btn-delete {
+    background-color: #DC5B5B;
+    width: 70%;
+    margin: auto;
+    padding: 6px 0px;
+}
+
+.btn-delete:hover{
+    background-color: #DE3C3C;
+}
+
+h1 {
+    padding: 0;
+    margin: 0;
+    margin-left: 10px;
+}
+
+.history-modal div p {
+    border-bottom: 1px solid #E5E5E5;
+    margin : 15px 20px;
+    font-size: 18px;
+}
+
+h3 {
+    color: #7E7D7D;
+}
+
+
+/*Botón de acceso al historial*/
+.btn-history {
+    margin-top: 25px;
+    font-weight: bold;
+    background-color: transparent;
+    width: 25%;
+    color: #0D69DE;
+    font-size: 18px;
+}
+
+.btn-history:hover{
+    text-decoration: underline;
+}
