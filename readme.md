@@ -21,4 +21,4 @@ realizadas.
 ![La Calculadora](img/Calculadora.png)
 ![localStorage](img/localStorage.png)
 ![Historial](img/historial-operaciones.png)
-![SinOperaciones](img/No-operaciones.png)
+![SinOperaciones](img/No-Operaciones.png)
