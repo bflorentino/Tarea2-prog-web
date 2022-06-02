@@ -18,7 +18,7 @@ realizadas.
 
 ## Capturas de pantalla
 
-![La Calculadora](Calculadora.png)
-![localStorage](localStorage.png)
-![Historial](historial-operaciones.png)
-![SinOperaciones](No-operaciones.png)
+![La Calculadora](img/Calculadora.png)
+![localStorage](img/localStorage.png)
+![Historial](img/historial-operaciones.png)
+![SinOperaciones](img/No-operaciones.png)
